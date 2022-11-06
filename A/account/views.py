@@ -18,9 +18,6 @@ class UserRegisterView(View):
         if request.user.is_authenticated:
             return redirect('home:home')
         return super().dispatch(request, *args, **kwargs)
-    
-
-
 
     def get(self,request):
         form=self.form_class()
