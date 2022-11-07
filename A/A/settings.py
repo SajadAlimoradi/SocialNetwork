@@ -147,8 +147,8 @@ LOGIN_URL='/account/login/'
 #Google Account
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'sajad.civileng@gmail.com'
+EMAIL_HOST_USER = ' '
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = 'qxxnlfuknihglizk'
+EMAIL_HOST_PASSWORD = ' '
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Sajad Developer'
